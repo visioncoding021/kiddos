@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.video-intro{
+    display: flex;
+    padding: 5rem 1rem;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    justify-content: center !important;
+    padding-left: 2.7rem;
+}
+
+.video-intro-left > p{
+font-size: 14px;
+}
+
+.description{
+    font-size: 20px;
+    color: #4b4b4b71;
+    margin-top: 1.9rem;
+}
+.video-intro-left h1{
+    font-size: 2.6rem;
+    color: #06382C;
+    font-weight: 700;
+    margin-top: 1rem;
+    
+}
+.video-intro-left h1 span{
+    font-size: 3.7rem;
+    font-weight: 900;
+}
+
+.video-btn{
+    width: 25rem;
+    border-radius: 4px;
+    position: relative;
+    left: -100px;
+    margin-top: 2rem;
+    padding: 1.5rem 4rem;
+    background: rgb(6,56,44);
+    background: -moz-linear-gradient(270deg, rgba(6,56,44,0.0033263305322128733) 0%, rgba(206,242,255,1) 87%);
+    background: -webkit-linear-gradient(270deg, rgba(6,56,44,0.0033263305322128733) 0%, rgba(206,242,255,1) 87%);
+    background: linear-gradient(270deg, rgba(6,56,44,0.0033263305322128733) 0%, rgba(206,242,255,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06382c",endColorstr="#cef2ff",GradientType=1);
+}
+
+.video-btn span:first-child{
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color:#fff;
+    font-size: 1rem;
+    text-align: center;
+}
+.video-btn span{
+margin: 0.7rem;
+}
+
+button{
+    border: none;
+    background: #06382C;
+    color:#fff;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+
+}
+.video-intro-right img{
+    padding-top: 0px;
+    margin-top: -90px;
+    height: 98%;
+}
+
+.video-intro-right{
+    text-align: center;
+}
+
+/* About section of kiddos */
+
+.about-kiddo{
+    text-align: center;
+}
+.about-kiddo h1{
+    font-size: 3.7rem;
+    font-weight: 300;
+    color: #06382C;
+}
+.about-kiddo-features{
+    display: flex;
+    justify-content: center;
+}
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    margin: 3rem;
+}
+
+.feature-item p:first-child{
+    width: 35%;
+    padding: 1rem;
+    font-size: 3rem;
+    color: #06382C;
+    border-radius: 25%;
+    background-color: #4b4b4b2b;  
+    text-align: center;
+}
+
+.feature-item{
+    padding: 1.4rem;
+    color: #06382C;
+}
+.feature-item p:nth-child(2n){
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.feature-item p :last-child{
+    font-weight: 400;
+}
